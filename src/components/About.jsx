@@ -59,7 +59,8 @@ const About = () => {
       >
         <p> Full Stack Developer, AI Engineer, and Entrepreneur, building smart tech with a dash of AI magic ✨</p>
         {/* <p>I'm Arun—a Full Stack Developer, AI Engineer, and Entrepreneur with a master's in AI, crafting smart tech with a touch of AI magic." 🚀</p> */}
-        <p> With 7 years of experience in software development and a Master's degree in AI, I blend creativity and cutting-edge tech to build everything from sleek web apps to intelligent AI assistants.</p>
+        <p> With nearly a decade of experience in software development and a Master's degree in AI, I blend creativity and cutting-edge tech to build everything from sleek web apps to intelligent AI assistants.</p>
+        <p>I’m on a mission to make AI do the heavy lifting—starting with InsightIQ, which magically turns voice into actionable insights </p>
         {/* <p>🛠️ Think of me as a Swiss Army knife of software engineering—building AI & software solutions faster than you can say "debug." </p> */}
       </motion.div>
 

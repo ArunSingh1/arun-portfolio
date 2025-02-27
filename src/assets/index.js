@@ -19,6 +19,9 @@ import genai from "./tech-stack/genai.png";
 import dock from "./tech-stack/dock.png";
 import nodebg from "./tech-stack/node.png";
 import fastap from "./tech-stack/FastAPI.png";
+import kuber from "./tech-stack/Kuber.png";
+import psql from "./tech-stack/Psql.png";
+import insight from "./tech-stack/Insight.png";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -61,6 +64,9 @@ export {
   fastap,
   dock,
   genai,
+  kuber,
+  psql,
+  insight,
   nodebg,
   github,
   css,

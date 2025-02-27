@@ -13,6 +13,8 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
 import Insightiq from "./Insightiq";
+import Skills from "./Skills";
+
 
 export {
   Hero,
@@ -23,6 +25,7 @@ export {
   Works,
   Contact,
   Insightiq,
+  Skills,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

@@ -11,6 +11,9 @@ import {
   dock,
   nodebg,
   fastap,
+  kuber, 
+  psql,
+  insight,
   javascript,
   html,
   css,
@@ -63,6 +66,8 @@ export const services2 = [
   { title: "Docker", icon: dock },
   { title: "GenAI", icon: genai },
   { title: "Git", icon: github },
+  { title: "Postgres", icon: psql },
+  { title: "Kubernetes", icon: kuber },
   
 ];
 
@@ -118,23 +123,24 @@ export const experiencesoo = [
 ];
 
 export const experiences = [
-  // {
-  //   title: "AI engineer",
-  //   company_name: "Entrepreneurship",
-  //   icon: oko,
-  //   iconBg: "#161329",
-  //   date: "Aug 2024 - till",
-  //   // points: [
-  //   //   "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-  //   //   "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
-  //   // ],
-  //   points: [
-  //     "Refactored the legacy codebase of the application 'Hemera' resolving persistent issues and bugs while achieving significant performance enhancements and improved maintainability.",
-  //     "Designed and implemented a time-based evolution feature to visualize the progression of cell growth at different time intervals, enabling researchers to study the interaction of the drug with cells over time.",
-  //     "Build a UI feeature to visualize different drugs in various wells on the chip, providing an intuitive platform to analyze different drug interactions with cells.",
-  //     "Researched and build a POC that leverages the LLMs ability to analyze teams private data sources using OpenAI embeddings, OpenAI ChatGPT4, Python and Langchain to improve decision making processes.",
-  //   ],
-  // },
+  {
+    title: "Lead Dev - AI engineer",
+    company_name: "Entrepreneurship",
+    icon: insight,
+    iconBg: "#161329",
+    date: "Aug 2024 - till",
+    // points: [
+    //   "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
+    //   "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+    // ],
+    points: [
+      "Conducted in-depth research into Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to enhance AI-driven decision-making.",
+      "Developed InsightIQ, an AI-powered assistant that transforms voice inputs into actionable insights by leveraging RAG, multimodal capabilities, and database connectivity.",
+      "Engineered a seamless integration of speech, text, and structured data to streamline complex analytical processes and improve efficiency.",
+      // "Explored advanced techniques in vector databases, embeddings, and LangChain to enable InsightIQ to retrieve and process relevant data from private sources.",
+      // "Designed a scalable and efficient AI architecture to ensure real-time insights, improving the accuracy and speed of information retrieval.",
+    ],
+  },
   {
     title: "Full Stack Software Engineer",
     company_name: "OKOMERA",

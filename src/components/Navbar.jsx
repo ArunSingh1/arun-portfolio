@@ -8,9 +8,14 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
+  const openLinkedIn = () => {
+    const linkedInUrl = 'https://www.linkedin.com/in/arun-singh1/';
+    window.open(linkedInUrl);
+  };
+
+  const openGitHub = () => {
+    const gitHubUrl = 'https://github.com/ArunSingh1';
+    window.open(gitHubUrl);
   };
 
   useEffect(() => {
@@ -42,7 +47,14 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        <button onClick={openLinkedIn}>LinkedIn</button>
+      </li>
+      <li
+        className={`text-${
+          isSecondary ? 'secondary' : 'white'
+        } hover:text-white text-[20px] font-medium cursor-pointer`}
+      >
+        <button onClick={openGitHub}>GitHub</button>
       </li>
     </ul>
   );
@@ -51,7 +63,6 @@ const Navbar = () => {
     <>
       <nav
         className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary `}
-        // className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary bg-hero-pattern bg-cover bg-no-repeat bg-center`}
       >
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <Link
@@ -63,10 +74,10 @@ const Navbar = () => {
             }}
           >
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[25px]  cursor-pointer flex">
+            {/* <p className="text-white text-[25px]  cursor-pointer flex">
               Arun&nbsp;
               <span className="sm:block hidden">Singh</span>
-            </p>
+            </p> */}
           </Link>
           {renderNavLinks(false)}
           <div className="sm:hidden flex flex-1 justify-end items-center">
