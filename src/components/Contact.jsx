@@ -18,6 +18,9 @@ const Contact = () => {
         <p className="mt-12 text-white text-[17px] max-w-3xl leading-[30px]">
         Got an idea, a project, or just want to geek out over AI? Let’s connect on LinkedIn—I promise I won’t ghost you! 😉.
         </p>
+        {/* <p className="mt-12 text-white text-[17px] max-w-3xl leading-[30px]">
+        Or reach out to me on arunsinghmailid@gmail.com, I promise I won’t ghost you! 😉.
+        </p> */}
         <button
           onClick={openLinkedIn}
           className="mt-4 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"

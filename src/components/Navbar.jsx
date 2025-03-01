@@ -18,6 +18,11 @@ const Navbar = () => {
     window.open(gitHubUrl);
   };
 
+  const openMedium = () => {
+    const medUrl = 'https://medium.com/@arunsinghmailid';
+    window.open(medUrl);
+  };
+
   useEffect(() => {
     if (toggle) {
       setActive('');
@@ -56,6 +61,14 @@ const Navbar = () => {
       >
         <button onClick={openGitHub}>GitHub</button>
       </li>
+      <li
+        className={`text-${
+          isSecondary ? 'secondary' : 'white'
+        } hover:text-white text-[20px] font-medium cursor-pointer`}
+      >
+        <button onClick={openMedium}>Medium</button>
+      </li>
+
     </ul>
   );
 
