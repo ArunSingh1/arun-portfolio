@@ -54,7 +54,7 @@ const Navbar = () => {
       >
         <button onClick={openLinkedIn}>LinkedIn</button>
       </li>
-      <li
+      {/* <li
         className={`text-${
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
@@ -67,7 +67,7 @@ const Navbar = () => {
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
         <button onClick={openMedium}>Medium</button>
-      </li>
+      </li> */}
 
     </ul>
   );

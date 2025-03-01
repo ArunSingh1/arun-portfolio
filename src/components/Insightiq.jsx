@@ -111,7 +111,7 @@ const Insightiq = () => {
         <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           InsightIQ is a cutting-edge AI assistant that leverages <strong>RAG (Retrieval-Augmented Generation) </strong>, multimodal capabilities, and database connectivity to transform voice inputs into valuable insights for data-driven decision-making.
           <br /><br />
-          Powered by <strong>OpenAI’s Whisker and Llama3.3 </strong>, it processes spoken data, retrieves relevant information, and provides structured analytics by connecting to your databases.
+          Powered by <strong>OpenAI’s Whisker, Llama3.3 </strong>, it processes spoken data, retrieves relevant information, and provides structured analytics by connecting to your databases.
           <br /><br />
           InsightIQ seamlessly integrates speech, text, and data to streamline decision-making and enhance efficiency. 🚀
         </motion.p>
