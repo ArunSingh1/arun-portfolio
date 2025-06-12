@@ -13,6 +13,12 @@ const Navbar = () => {
     window.open(linkedInUrl);
   };
 
+  const openResume = () => {
+    const resumeInUrl = 'https://drive.google.com/file/d/17jORMDk577Sxd6kZJM72-0kwLvIkiRBY/view?usp=sharing';
+    window.open(resumeInUrl);
+  };
+
+
   const openGitHub = () => {
     const gitHubUrl = 'https://github.com/ArunSingh1';
     window.open(gitHubUrl);
@@ -54,6 +60,16 @@ const Navbar = () => {
       >
         <button onClick={openLinkedIn}>LinkedIn</button>
       </li>
+
+      <li
+        className={`text-${
+          isSecondary ? 'secondary' : 'white'
+        } hover:text-white text-[20px] font-medium cursor-pointer`}
+      >
+        <button onClick={openResume}>Resume</button>
+      </li>
+
+
       {/* <li
         className={`text-${
           isSecondary ? 'secondary' : 'white'
