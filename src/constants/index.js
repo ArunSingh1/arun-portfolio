@@ -128,7 +128,7 @@ export const experiences = [
     company_name: "Entrepreneurship",
     icon: insight,
     iconBg: "#161329",
-    date: "Aug 2024 - till",
+    date: "June 2024 - March 2025",
     // points: [
     //   "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
     //   "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
@@ -146,7 +146,7 @@ export const experiences = [
     company_name: "OKOMERA",
     icon: oko,
     iconBg: "#161329",
-    date: "Nov 2023 - Aug 2024",
+    date: "Nov 2023 - May 2024",
     // points: [
     //   "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
     //   "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
@@ -164,7 +164,7 @@ export const experiences = [
     company_name: "VINCI Energies",
     icon: vinci,
     iconBg: "#161329",
-    date: "Nov 2021- Nov 2023",
+    date: "Nov 2021- June 2023",
     points: [
       "Designed and developed a web app to address company’s sourcing requirements in France using data from SAP ERP and open data from government",
       "Experienced in building analytical dashboards in SAP Cloud Business Intelligence platform to visualize Suppliers Purchase histories details across different  Business units.",
@@ -177,7 +177,7 @@ export const experiences = [
     company_name: "PRODAPT Solutions",
     icon: prodapt,
     iconBg: "#161329",
-    date: " May 2019- Sep 2020",
+    date: " May 2019- Oct 2020",
     points: [
       "Lead Chat bot development project called ’PROBOT’ build using framework ’RASA’ and python which was integrated with Microsoft teams to automate and streamline tasks",
       "Chat bot development project called ’PROBOT’ framework ’RASA’ and python which was integrated with Microsoft teams to automate and streamline",
@@ -189,7 +189,7 @@ export const experiences = [
     company_name: "ACCENTURE",
     icon: acc,
     iconBg: "#161329",
-    date: "Nov 2016 - Aug 2018",
+    date: "Nov 2016 - March 2018",
     points: [
       "Worked as a consultant for US bank 'FirstData' on quality assurance for financial transactions, involved in analysing transaction records from Client's POS (Point of sale) Machines.",
       "Running Test Cases in HP Tandem Non-stop Server and querying MySQL to interrupt the results against Client requirements.",
